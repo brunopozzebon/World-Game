@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#map_container{
+	width: 100vw;
+	height: 100vh;
+}
+
+svg{
+
+	width: 100%;
+	height: 100%;
+}
+
+.red_background{
+	fill: blue !important;
+}
+#float_bar{
+	position: fixed;
+	text-align: center;
+	right: 25vw;
+	font-size: 1.3em;
+	bottom: 6vh;
+}
+input{
+	width: 50vw;
+	font-size: 1.2em;
+	color: gray;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border:1px solid gray;
+	border-radius: 20px;
+	-webkit-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.15);
+	box-shadow: 5px 5px 12px 0px rgba(0,0,0,0.15);
+}
